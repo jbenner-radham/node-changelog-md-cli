@@ -1,11 +1,11 @@
 changelog-md-cli
 ================
- A CLI for the `changelog-md` module (better description forthcoming...)
+ A CLI for the `changelog-md` module _(better description forthcoming...)_
 
 Install
 -------
 ```sh
-$ npm install --save changelog-md-cli
+$ yarn global add changelog-md-cli # Or alternatively: `npm --global install changelog-md-cli`
 ```
 
 Usage
@@ -17,7 +17,7 @@ $ changelog-md # Writes a base changelog to stdout.
 Testing
 -------
 ```sh
-$ npm test
+$ yarn test # Or alternatively: `npm test`
 ```
 
 Reference

@@ -27,4 +27,4 @@ Reference
 
 License
 -------
-The MIT License (Expat). See the license file for details.
+The MIT License (Expat). See the [license file](LICENSE) for details.

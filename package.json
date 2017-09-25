@@ -25,8 +25,8 @@
     "cli",
     "changelog",
     "keepachangelog",
-    "md",
-    "markdown"
+    "markdown",
+    "md"
   ],
   "author": "James Benner <james.benner@gmail.com> (http://www.jamesbenner.com/)",
   "license": "MIT",

@@ -1,6 +1,6 @@
 {
   "name": "changelog-md-cli",
-  "version": "0.0.0",
+  "version": "0.1.0",
   "description": " A CLI for the `changelog-md` module (better description forthcoming...)",
   "main": "lib/index.js",
   "bin": {

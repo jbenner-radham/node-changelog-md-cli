@@ -2,6 +2,9 @@
   "name": "changelog-md-cli",
   "version": "0.1.0",
   "description": " A CLI for the `changelog-md` module (better description forthcoming...)",
+  "engines": {
+    "node": ">=6.11"
+  },
   "main": "lib/index.js",
   "bin": {
     "changelog-md": "cli.js"
@@ -9,6 +12,10 @@
   "directories": {
     "lib": "lib",
     "test": "test"
+  },
+  "scripts": {
+    "prepublishOnly": "trevor",
+    "test": "jasmine --config=test/spec/support/jasmine.json"
   },
   "repository": {
     "type": "git",
@@ -29,5 +36,9 @@
   "homepage": "https://github.com/jbenner-radham/node-changelog-md-cli#readme",
   "dependencies": {
     "changelog-md": "^0.1.0"
+  },
+  "devDependencies": {
+    "jasmine": "^2.8.0",
+    "trevor": "^2.3.0"
   }
 }

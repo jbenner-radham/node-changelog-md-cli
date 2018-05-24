@@ -1,6 +1,6 @@
 {
   "name": "changelog-md-cli",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "description": " A CLI for the `changelog-md` module (better description forthcoming...)",
   "engines": {
     "node": ">=6.11"
@@ -41,6 +41,6 @@
   "devDependencies": {
     "eslint": "^4.19.1",
     "jasmine": "^2.8.0",
-    "trevor": "^2.3.0"
+    "trevor": "github:jbenner-radham/trevor#fix-for-missing-onbuild-images"
   }
 }

@@ -7,7 +7,7 @@
   },
   "main": "lib/index.js",
   "bin": {
-    "changelog-md": "cli.js"
+    "changelog-md": "bin/cli.js"
   },
   "directories": {
     "lib": "lib",

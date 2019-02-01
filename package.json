@@ -41,6 +41,6 @@
   "devDependencies": {
     "eslint": "^4.19.1",
     "jasmine": "^2.8.0",
-    "trevor": "github:jbenner-radham/trevor#fix-for-missing-onbuild-images"
+    "trevor": "^2.4.0"
   }
 }

@@ -2,9 +2,23 @@
   "name": "changelog-md-cli",
   "version": "0.1.2",
   "description": " A CLI for the `changelog-md` module (better description forthcoming...)",
-  "engines": {
-    "node": ">=6.11"
+  "keywords": [
+    "changelog",
+    "cli",
+    "keepachangelog",
+    "markdown",
+    "md"
+  ],
+  "homepage": "https://github.com/jbenner-radham/node-changelog-md-cli#readme",
+  "bugs": {
+    "url": "https://github.com/jbenner-radham/node-changelog-md-cli/issues"
   },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jbenner-radham/node-changelog-md-cli.git"
+  },
+  "license": "MIT",
+  "author": "James Benner <james.benner@gmail.com> (http://www.jamesbenner.com/)",
   "main": "lib/index.js",
   "bin": {
     "changelog-md": "bin/cli.js"
@@ -18,29 +32,16 @@
     "pretest": "eslint {bin,lib,test}",
     "test": "jasmine --config=test/spec/support/jasmine.json"
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/jbenner-radham/node-changelog-md-cli.git"
-  },
-  "keywords": [
-    "cli",
-    "changelog",
-    "keepachangelog",
-    "markdown",
-    "md"
-  ],
-  "author": "James Benner <james.benner@gmail.com> (http://www.jamesbenner.com/)",
-  "license": "MIT",
-  "bugs": {
-    "url": "https://github.com/jbenner-radham/node-changelog-md-cli/issues"
-  },
-  "homepage": "https://github.com/jbenner-radham/node-changelog-md-cli#readme",
   "dependencies": {
     "changelog-md": "^0.1.0"
   },
   "devDependencies": {
-    "eslint": "^4.19.1",
+    "eslint": "^5.13.0",
     "jasmine": "^2.8.0",
+    "sort-package-json": "^1.19.0",
     "trevor": "^2.4.0"
+  },
+  "engines": {
+    "node": ">=6.11"
   }
 }

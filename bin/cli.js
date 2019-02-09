@@ -4,6 +4,6 @@
 
 const app = require('../');
 
-let changelog = app();
+const changelog = app();
 
 console.log(changelog);
